@@ -1,0 +1,73 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "badgeClass": "badge badge-light-warning badge-pill ml-auto mr-1",
+      "icon": "home",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "dashboard/analytics",
+          "name": "Analytics",
+          "icon": "circle",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+
+    {
+      "navheader": "Market",
+      "slug": ""
+    },
+
+    {
+      "url": "googleplay/",
+      "name": "Google Play",
+      "icon": "box",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "googleplay/follow-app",
+          "name": "Follow App",
+          "icon": "circle",
+          "slug": "googleplay-follow-app"
+        },
+        {
+          "url": "googleplay/",
+          "name": "Search App",
+          "icon": "circle",
+          "slug": "googleplay-index"
+        },
+        {
+          "url": "googleplay/package",
+          "name": "Filter App",
+          "icon": "circle",
+          "slug": "googleplay-package"
+        },
+        {
+          "url": "googleplay/filter_app_list",
+          "name": "Filter App List",
+          "icon": "circle",
+          "slug": "googleplay-filter-app-list"
+        }
+      ]
+    },
+    {
+      "url": "googleplay/",
+      "name": "App Gallery",
+      "icon": "aperture",
+      "slug": "",
+      "submenu": [
+
+        {
+          "url": "appgallery/package",
+          "name": "Filter App",
+          "icon": "circle",
+          "slug": "appgallery-package"
+        }
+
+      ]
+    }
+
+  ]
+}
